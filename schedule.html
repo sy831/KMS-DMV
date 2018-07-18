@@ -1,6 +1,6 @@
 <meta charset="utf-8" name="viewport" content="width-device-width, initial-scale=1"/>
 
-<title> Logic and Computing | KMS-DMV Special Session 04</title>
+<title> Schedule | Logic and Computing </title>
 
 <link rel="stylesheet" href="mysty.css" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -27,27 +27,33 @@
     <a href="index.html">Logic and Computing</a>
   </p> </h1>
 
-  <div class="topnav" id="myTopnav">
-    <a href="index.html">Home</a>
-    <a href="invited.html">Invited Speakers</a>
-    <a href="organizer.html">Organizers</a>
-    <a href="venue.html">Conference Venue</a>
-    <a href="schedule.html">Schedule</a>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-      <i class="fa fa-bars"></i>
-    </a>
-  </div>
+  <div id="categoryNavWrap">
+        <div class="widthController standard">
+            <div id="mobileNavWrap">
+                <label for="show-menu" class="show-menu">Menu</label>
+            <input type="checkbox" id="show-menu" role="button">
 
-  <script>
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
-}
-</script>
+                <nav id="mobileNav">
+                  <a href="index.html">Home</a>
+                  <a href="invited.html">Invited Speakers</a>
+                  <a href="organizer.html">Organizers</a>
+                  <a href="venue.html">Conference Venue</a>
+                  <a href="schedule.html">Schedule</a>
+                </nav>
+              </div>
+
+              <div class="widthController">
+                <nav id="main">
+                  <a href="index.html">Home</a>
+                  <a href="invited.html">Invited Speakers</a>
+                  <a href="organizer.html">Organizers</a>
+                  <a href="venue.html">Conference Venue</a>
+                  <a href="schedule.html">Schedule</a>
+                </nav>
+              </div>
+        </div>
+
+      </div>
 
   <div id="grid">
   <!-- <ol>
